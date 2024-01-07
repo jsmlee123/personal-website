@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.content-container {
+  background-color: rgb(236, 213, 213);
+  min-height: 100vh;
+  height: 100%;
+  padding-top: 100px;
+}
