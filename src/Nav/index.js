@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { RiDashboard3Line } from "react-icons/ri";
 import { MdOutlineAccountCircle } from "react-icons/md";
 import { FaHome, FaSearch, FaSignInAlt } from "react-icons/fa";
@@ -8,6 +8,7 @@ import "./index.css";
 
 
 const Nav = () => {
+    const [title, setTitle] = useState("Jonathan Lee");
 
     const links = [
         "Home", 
@@ -17,16 +18,26 @@ const Nav = () => {
 
     const coolLink = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 
+    const changeText = () => {
+        setTitle("(╯°□°)╯︵ ┻━┻");
+    };
+
+    const resetText = () => {
+        setTitle("Jonathan Lee");
+    };
+
     return (
         <div className='d-flex side-bar justify-content-between'>
             <div className='d-inline-flex align-items-center ps-4'>
-                    <Link
-                        key={"name_header"}
-                        className='text-decoration-none name-header comic-sans'
-                        to={`${coolLink}}`}
-                    >
-                        Jonathan Lee
-                    </Link>
+                <Link
+                    key={"name_header"}
+                    className='text-decoration-none name-header comic-sans'
+                    to={`${coolLink}}`}
+                    onMouseEnter={changeText}
+                    onMouseLeave={resetText}
+                >
+                    {title}
+                </Link>
             </div>
             <div className='d-inline-flex align-items-center pe-5'>
                 {links.map((link, index) => (
