@@ -18,23 +18,15 @@ const Nav = () => {
 
     const coolLink = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 
-    const changeText = () => {
-        setTitle("(╯°□°)╯︵ ┻━┻");
-    };
-
-    const resetText = () => {
-        setTitle("Jonathan Lee");
-    };
-
     return (
         <div className='d-flex side-bar justify-content-between'>
             <div className='d-inline-flex align-items-center ps-4'>
                 <Link
                     key={"name_header"}
-                    className='text-decoration-none name-header comic-sans'
+                    className='text-decoration-none name-header comic-sans text-nowrap'
                     to={`${coolLink}}`}
-                    onMouseEnter={changeText}
-                    onMouseLeave={resetText}
+                    onMouseEnter={() => setTitle("(╯°□°)╯︵ ┻━┻")}
+                    onMouseLeave={() => setTitle("Jonathan Lee")}
                 >
                     {title}
                 </Link>

@@ -16,11 +16,11 @@
 .name-header:hover {
     color: black;
     font-size: 40px;
-    animation: slide 1s infinite;
+    animation: slide 0.8s infinite;
 }
 
 .comic-sans {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS", "Comic Sans";
 }
 
 .link-text {
@@ -31,7 +31,7 @@
 .link-text:hover {
     color: gray;
     font-size: 20px;
-    animation: wiggle 2s infinite;
+    animation: wiggle 1.5s infinite;
 }
 
 @keyframes slide {
@@ -39,7 +39,7 @@
         transform: translate(0px);
     }
     50% {
-        transform: translate(20px) rotate(-8deg);
+        transform: translate(20px,-20px) rotate(-10deg);
     }
     100% {
         transform: translate(0px);
@@ -48,18 +48,12 @@
 
 @keyframes wiggle {
     0% {
-        transform: rotate(0deg);
-    }
-    25% {
         transform: rotate(10deg);
     }
     50% {
         transform: rotate(-10deg);
     }
-    75% {
-        transform: rotate(10deg);
-    }
     100% {
-        transform: rotate(-10deg);
+        transform: rotate(10deg);
     }
   }
