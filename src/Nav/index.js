@@ -14,11 +14,19 @@ const Nav = () => {
         "About",
         "Projects"
     ];
-    
+
+    const coolLink = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+
     return (
         <div className='d-flex side-bar justify-content-between'>
             <div className='d-inline-flex align-items-center ps-4'>
-                <h1 className='comic-sans'>Jonathan Lee</h1>
+                    <Link
+                        key={"name_header"}
+                        className='text-decoration-none name-header comic-sans'
+                        to={`${coolLink}}`}
+                    >
+                        Jonathan Lee
+                    </Link>
             </div>
             <div className='d-inline-flex align-items-center pe-5'>
                 {links.map((link, index) => (
