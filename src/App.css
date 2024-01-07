@@ -41,5 +41,6 @@
   background-color: rgb(236, 213, 213);
   min-height: 100vh;
   height: 100%;
+  width: 100%;
   padding-top: 100px;
 }
