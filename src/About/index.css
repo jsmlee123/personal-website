@@ -24,8 +24,6 @@
 .pfp {
     min-height: 90%;
     min-width: 30%;
-    background-image: url("https://i.pinimg.com/564x/e4/bb/1c/e4bb1c97bd9475a21381df583db5e50b.jpg");
-    background-size: cover;
 }
 
 .pfp:hover {
@@ -46,6 +44,52 @@
     font-weight: lighter;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
+
+ /* Took this from w3schools */
+.flip-card {
+    background-color: transparent;
+    height: 90%;
+    width: 30%;
+    perspective: 1000px; 
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateX(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+
+}
+
+.flip-card-front {
+    background-color: rgb(248, 225, 218);
+    color: black;
+}
+
+.flip-card-back {
+    background-color: rgb(248, 225, 218);
+    color: black;
+    transform: rotateX(180deg);
+} 
 
 @keyframes spin {
     from {transform: rotate(0deg); }
