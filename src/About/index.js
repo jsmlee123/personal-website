@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import "./index.css";
 
 
-const Home = () => {
+const About = () => {
     const [isProfileHover, setProfileHover] = useState(false);
 
     return (
@@ -20,8 +20,8 @@ const Home = () => {
                 </div>
                 <div className='ms-5 text-body-card rounded-5 comic-sans'>
                     <h1>Intro</h1>
-                    <p className='mt-4 pe-3'>
-                        Hi! I'm Jonathan and this is my personal website. I'm a software engineer
+                    <p className='mt-4 pe-3 lh-lg'>
+                        Hi! I'm Jonathan! I'm a software engineer
                         who graduated from Northeastern University. I have a passion for writing 
                         understandable, simple code and in my free time you can catch me playing
                         tennis or video games. (I'm a corki one trick)
@@ -33,4 +33,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default About;

@@ -5,6 +5,15 @@ import { Routes, Route, Navigate } from 'react-router';
 import About from './About';
 import Nav from './Nav';
 
+
+const Nothing = () => {
+  return (
+    <div className='d-flex flex-column align-items-center justify-content-center nothing-to-see'>
+      <span className='spin'>Nothing to see here(yet?)</span>
+    </div>
+  );
+};
+
 function App() {
   return (
     <HashRouter>
@@ -14,6 +23,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Navigate to="About" />} />
             <Route path="About" element={<About/>} />
+            <Route path="*" element={<Nothing/>}/>
           </Routes>
         </div>
       </div>
