@@ -35,6 +35,15 @@
     animation: wiggle 1.5s infinite;
 }
 
+.slide-top {
+    animation: slide-top 1s 1;
+}
+
+@keyframes slide-top {
+    from {transform: translate(0px, -300px); }
+    to {transform: translate(0px, 0px); }
+}
+
 @keyframes slide {
     0% {
         transform: translate(0px);

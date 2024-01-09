@@ -9,6 +9,11 @@
     box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
 }
 
+.slide-bottom {
+    animation: slide-left 1s 1;
+}
+
+
 .home-container {
     height: 94vh;
     min-height: 800px;
@@ -45,6 +50,11 @@
 @keyframes spin {
     from {transform: rotate(0deg); }
     to {transform: rotate(360deg); }
+}
+
+@keyframes slide-left {
+    from {transform: translate(-1000px, 0px); }
+    to {transform: translate(0px, 0px); }
 }
 
 

@@ -7,7 +7,7 @@ const Home = () => {
 
     return (
         <div className="d-flex flex-column align-items-center justify-content-center home-container mt-5">
-            <div className="d-flex flex-row align-items-center justify-content-left home-card rounded-5 overflow-auto"> 
+            <div className="slide-bottom d-flex flex-row align-items-center justify-content-left home-card rounded-5 overflow-auto"> 
                 <div className={`d-flex align-items-center justify-content-center pfp rounded-4`} 
                     onMouseEnter={() => setProfileHover(true)}
                     onMouseLeave={() => setProfileHover(false)}

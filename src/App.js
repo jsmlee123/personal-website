@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { HashRouter } from 'react-router-dom';
 import { Routes, Route, Navigate } from 'react-router';
-import Home from './Home';
+import About from './About';
 import Nav from './Nav';
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
         <Nav/>
         <div className='content-container'>
           <Routes>
-            <Route path="/" element={<Navigate to="Home" />} />
-            <Route path="Home" element={<Home/>} />
+            <Route path="/" element={<Navigate to="About" />} />
+            <Route path="About" element={<About/>} />
           </Routes>
         </div>
       </div>

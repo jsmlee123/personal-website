@@ -10,13 +10,13 @@ const Nav = () => {
     const [title, setTitle] = useState("Jonathan Lee");
 
     const links = [
-        "Home", 
-        "About",
+        "About", 
+        "Experience",
         "Projects"
     ];
 
     return (
-        <div className='d-flex flex-grow-1 side-bar justify-content-between rounded-4 mt-3'>
+        <div className='slide-top d-flex flex-grow-1 side-bar justify-content-between rounded-4 mt-3'>
             <div className='d-inline-flex align-items-center ps-5'>
                 <Link
                     key={"name_header"}
