@@ -27,9 +27,10 @@ const About = () => {
                 <div className='ms-5 text-body-card rounded-5 comic-sans'>
                     <h1>About Me</h1>
                     <p className='mt-4 pe-3 lh-lg'>
-                        Hi! I'm Jonathan, a new grad software engineer from Northeastern University. I have a passion for writing 
-                        understandable, simple code. In my free time you can catch me playing
-                        video games or playing tennis. (I'm a corki one trick)
+                        Hi! I'm Jonathan, a new grad software engineer from Northeastern University interested in
+                        Backend and Fullstack development. I have a passion for writing 
+                        understandable, simple code and in my free time you can catch me playing
+                        video games or playing tennis. <br/>(I'm a corki one trick)
 
                     </p>
                 </div>
