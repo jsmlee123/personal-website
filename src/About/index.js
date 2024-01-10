@@ -30,7 +30,7 @@ const About = () => {
                         Hi! I'm Jonathan, a new grad software engineer from Northeastern University interested in
                         Backend and Fullstack development. I have a passion for writing 
                         understandable, simple code and in my free time you can catch me playing
-                        video games or playing tennis. <br/>(I'm a corki one trick)
+                        video games or playing tennis. <br/>(I play corki)
 
                     </p>
                 </div>
