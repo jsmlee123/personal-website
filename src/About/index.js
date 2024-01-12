@@ -24,7 +24,7 @@ const About = () => {
                 </div> 
 
 
-                <div className='ms-5 text-body-card rounded-5 comic-sans'>
+                <div className='ms-5 text-body-card rounded-5'>
                     <h1>About Me</h1>
                     <p className='mt-4 pe-3 lh-lg'>
                         Hi! I'm Jonathan, a new grad software engineer from Northeastern University interested in

@@ -20,11 +20,11 @@ function App() {
     <HashRouter>
       <div className='d-flex flex-column flex-grow-1 align-items-center'>
         <Nav/>
-        <div className='content-container'>
+        <div className='d-flex flex-column flex-grow-1 content-container comic-sans'>
           <Routes>
             <Route path="/" element={<Navigate to="About" />} />
             <Route path="About" element={<About/>} />
-            {/*<Route path='Experience' element={<Experience/>} />*/}
+            <Route path='Experience' element={<Experience/>} />
             <Route path="*" element={<Nothing/>}/>
           </Routes>
         </div>

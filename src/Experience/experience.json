@@ -1,0 +1,37 @@
+[
+    {
+        "Title": "Incoming SDE",
+        "Company": "Amazon",
+        "TimeFrame": "Feb 2024 - Present",
+        "Description": 
+            [
+                "Joining in February 2024",
+                "Working on feature work for the Kindle Scribe"
+            ]
+    },
+    {
+        "Title": "SDE Intern",
+        "Company": "Amazon",
+        "TimeFrame": "May 2023 - August 2023",
+        "Description": 
+            [
+                "Built a full-stack end-to-end dashboard for the Kindle Electronic Ink devices to help developers and QAs develop and verify features behind A/B testing.",
+                "Developed the front-end in React Native/JavaScript and back-end API in C++ and Java, resolving 20+ Jira  tickets",
+                "Reduced the time it takes to override 200+ experiments A/B experiments from 3.5 hours to 1 second, a 99.99% improvement, saving developers and QAs many  hours to develop and debug features.",
+                "Created and executed a test plan with over 40+ tests and merged the project to production",
+                "Created shell unix scripts to automate testing the API for QAs."
+            ]
+    },
+    {
+        "Title": "SWE Co-op",
+        "Company": "Rockwell Automation",
+        "TimeFrame": "June 2022 - December 2022",
+        "Description": 
+            [
+                "Worked on an agile team to triage, test, and resolve issues regarding the FactoryTalk Optix product.",
+                "Wrote over 50 functional and automated tests in Python and C# using the Selenium and Squish testing frameworks for the FactoryTalk Optix release.",
+                "Enhanced the testing framework by applying Object Oriented design to areas of test automation, adding a layer of test abstraction to make the testing framework more resilient to future change in the product.",
+                "Resolved over 25+ Jira tickets regarding the testing framework and python tests."
+            ]
+    }
+]
